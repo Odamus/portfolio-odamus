@@ -1,0 +1,26 @@
+#image_1:hover{
+    cursor: zoom-in;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.opacity:hover {
+    opacity: 0.5;
+}
+
+.hoverlist{
+    position: relative;
+    display: inline-block;
+}
+
+.hoverlist:hover::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: -20px; 
+    height: 100%;
+    width: 10px; 
+    background-color: #782221; 
+    }
