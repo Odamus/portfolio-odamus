@@ -27,3 +27,18 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Install Bootstrap
+```sh
+npm install bootstrap
+```
+
+### Install Jquery
+```sh
+npm install jquery
+```
+
+### Install Vue router 4 (si necessaire)
+```sh
+npm install vue-router@4
+```
