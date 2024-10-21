@@ -76,7 +76,7 @@
             </div>
           </div>
 
-          <div class="blocbas">
+          <div id="competences" class="blocbas">
             <div class="softskills">
               <h1 class="softskill">SOFT Skills</h1>
             </div>

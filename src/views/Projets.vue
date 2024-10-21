@@ -3,7 +3,7 @@
       <div class="titleproj"><h1>Projets</h1></div>
 
     <div class="boxmodal">
-      <div class="shadpic"><button @click="openModal"><img src="../assets/images/cvodampic.png" alt="cvodampic"></button></div>
+      <div id="cv" class="shadpic"><button @click="openModal"><img src="../assets/images/cvodampic.png" alt="cvodampic"></button></div>
       <div class="shadpic"><button @click="openModal"><img src="../assets/images/Cdcetdevis.png" alt="cdcpic"></button></div>
       <div class="shadpic"><button @click="openModal"><img src="../assets/images/espacecom.png" alt="espacecompic"></button></div>
     </div>
