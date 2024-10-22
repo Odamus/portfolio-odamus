@@ -14,16 +14,19 @@
             <div class="entrercontact">
                 <h1 class="t1contact">Send your message</h1>
                 <span class="txt-caption">Merci d'intégrer votre demande ci-dessous, je répondrais dans les plus bref délais.</span>
-                <div>
-                    <form ref="form" @submit.prevent="sendEmail">
-                        <label>Name</label>
-                        <input type="text" name="user_name">
-                        <label>Email</label>
-                        <input type="email" name="user_email">
-                        <label>Message</label>
-                        <textarea name="message"></textarea>
-                        <input type="submit" value="Send">
-                    </form>
+                <div class="container-flui w-25">
+                    <div class="leform">
+                        <form ref="form" @submit.prevent="sendEmail">
+                            <label>Name</label>
+                            <input type="text" name="user_name">
+                            <label>Email</label>
+                            <input type="email" name="user_email">
+                            <label>Message</label>
+                            <textarea name="message"></textarea>
+                            <input type="submit" value="Send">
+                        </form>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -33,14 +36,13 @@
 </template>
 
 <script>
-
 import emailjs from '@emailjs/browser';
 
 export default {
   methods: {
     sendEmail() {
       emailjs
-        .sendForm('service_iwd4so8', 'template_n9alzqu', this.$refs.form, {
+        .sendForm('service_iwd4so8', 'template_bmhjk8e', this.$refs.form, {
           publicKey: 'NblvYicoC4bxo5cha',
         })
         .then(
@@ -65,7 +67,7 @@ export default {
     .contactme {
         display: flex;
         flex-direction: row;
-        height: 600px;
+        height: 700px;
         margin-top: 120px;
     }
 
@@ -94,6 +96,14 @@ export default {
 
     .icons {
         width: 100px;
+    }
+
+    .leform {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        margin-top: 20px;
     }
 
 </style>

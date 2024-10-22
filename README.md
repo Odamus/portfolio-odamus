@@ -29,16 +29,25 @@ npm run build
 ```
 
 ### Install Bootstrap
+
 ```sh
 npm install bootstrap
 ```
 
 ### Install Jquery
+
 ```sh
 npm install jquery
 ```
 
 ### Install Vue router 4 (si necessaire)
+
 ```sh
 npm install vue-router@4
+```
+
+### Install Axios (for librairy HTTP request from the browser or the backend)
+
+```sh
+npm install axios
 ```
