@@ -15,16 +15,14 @@
                 <h1 class="t1contact">Send your message</h1>
                 <span class="txt-caption">Merci d'intégrer votre demande ci-dessous, je répondrais dans les plus bref délais.</span>
                 <div>
-                    <form class="form" @submit.prevent="submitForm">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" v-model="formData.name" required>
-
-                        <label for="email">Email:</label>
-                        <input type="text" id="email" v-model="formData.email" required>
-
-                        <button type="submit">Submit</button>
-
-
+                    <form ref="form" @submit.prevent="sendEmail">
+                        <label>Name</label>
+                        <input type="text" name="user_name">
+                        <label>Email</label>
+                        <input type="email" name="user_email">
+                        <label>Message</label>
+                        <textarea name="message"></textarea>
+                        <input type="submit" value="Send">
                     </form>
                 </div>
             </div>
@@ -36,17 +34,26 @@
 
 <script>
 
-export default {
-    data() {
-        return {
-            formData: {
-                name: '',
-                email: '',
-            },
-        };
-    },
+import emailjs from '@emailjs/browser';
 
-}
+export default {
+  methods: {
+    sendEmail() {
+      emailjs
+        .sendForm('service_iwd4so8', 'template_n9alzqu', this.$refs.form, {
+          publicKey: 'NblvYicoC4bxo5cha',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    },
+  },
+};
 
 </script>
 

@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@vueuse/core": "^11.1.0",
     "bootstrap": "^5.3.3",
     "jquery": "^3.7.1",

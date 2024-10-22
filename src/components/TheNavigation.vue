@@ -9,18 +9,7 @@
     <a href="/#projets">Projets</a>
     <a href="/#contact">Contact</a>
     <a href="/#cv">CV</a>
-    <!--        <router-link to="/" @click.prevent="scrollTo('home')">Accueil</router-link>-->
-
-    <!--        <router-link to="/competences" @click.prevent="scrollTo('skills')">Compétences</router-link>-->
-
-    <!--        <router-link to="/notfound">Projets</router-link>-->
-    <!--    -->
-
-    <!--        <router-link to="/contact" @click.prevent="scrollTo('contact')">Contact</router-link>-->
-
-    <!--        <router-link to="/cv">CV</router-link>-->
-
-
+  
     <!-- Lien scrollable fonctionnelle -
     <router-link to="/competences" @click.prevent="scrollTo('skills')">Compétences</router-link>
 
