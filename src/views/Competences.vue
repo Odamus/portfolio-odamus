@@ -1,8 +1,8 @@
 <template>
   <div id="skills">
-    <section class="section2">
-      <div class="content2">
-        <div class="title2"><h1 class="title2">Compétences</h1></div>
+    <section class="section1">
+      <div class="title1"><h1>Compétences</h1></div>
+      <div class="content1">
         <div class="hardskills"><h2 class="hardskill">Hark Skills</h2></div>
         <div class="competences">
           <div class="blocgauche">
@@ -75,8 +75,13 @@
               <div class="progameliocontinu"></div>
             </div>
           </div>
-
-          <div id="competences" class="blocbas">
+        </div>
+      </div>
+    </section> 
+  </div>
+    
+  <section class="section2">
+        <div id="competences" class="blocbas">
             <div class="softskills">
               <h1 class="softskill">SOFT Skills</h1>
             </div>
@@ -91,7 +96,7 @@
               <div class="progworkgrp"></div>
             </div>
   
-          <div><p class="p2">COMMUNICATION</p></div>
+            <div><p class="p2">COMMUNICATION</p></div>
             <div class="progressBar">
               <div class="progcommunication"></div>
             </div>
@@ -124,37 +129,46 @@
             <div><p class="p2">CREATIVITE</p></div>
             <div class="progressBar">
               <div class="progcreativity"></div>
-            </div>
-          </div>
+            </div> 
         </div>
-  
-      </div>
-    </section>
-  </div>  
+      </section>
+
 </template>
 
-<style>
+<style scoped>
     #skills{
         background-image: url("src/assets/images/fondskill.jpg");
         background-size: cover;
-        height: 1650px;
+        height: 700px;
     }
     .h1{
         color: #2c3e50;
     }
 
-    .content2 {
+    .title1{
+    display: flex;
+    justify-content: center;
+    background-color: #2c3e50;
+    border-top: 5px solid #4e6c71;
+    border-bottom: 5px solid #4e6c71;
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    /* Section 1 flex and style */
+
+    .p2 {
+      margin-bottom: 0;
+      margin-top: 20px;
+    }
+
+    .content1 {
     display: block;
     flex-direction: column;
     justify-content: space-between;
     width: auto;
     height: auto;
-}
-
-.title2{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
 }
 
 .competences {
@@ -169,6 +183,7 @@
 .hardskills {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .blocgauche {
@@ -176,6 +191,11 @@
     display: block;
     justify-content: flex-start;
     margin-left: 300px;
+
+}
+
+.frontendt {
+  margin-top: 20px;
 }
 
 .blocdroit {
@@ -183,8 +203,20 @@
     display: block;
     justify-content: flex-start;
     margin-right: 100px;
-    margin-top: 40px;
+    padding-left: 500px;
 }
+
+.skillspro {
+  margin-bottom: 50px;
+}
+
+ /* Section 2 flex and style */
+
+ .section2 {
+    background-image: url("src/assets/images/fondskill.jpg");
+    background-size: cover;
+    height: 700px;
+ }
 
 .blocbas {
     position: relative;

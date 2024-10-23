@@ -43,6 +43,8 @@ const submitHandler = ()=>{
   justify-content: center;
   border-top: 5px solid #4e6c71;
   border-bottom: 5px solid #4e6c71;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .boxmodal {
