@@ -51,3 +51,11 @@ npm install vue-router@4
 ```sh
 npm install axios
 ```
+
+### Install Emailjs
+
+```sh
+npm install --save @emailjs/browser
+```
+(Pensez à aller sur https://temp-mail.org/fr/ pour générer un mail temporaire afin de tester l'envoie de mail.)
+
