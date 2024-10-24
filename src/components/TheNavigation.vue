@@ -8,7 +8,7 @@
     <a href="/#skills">Compétences</a>
     <a href="/#projets">Projets</a>
     <a href="/#contact">Contact</a>
-    <a href="/#cv">CV</a>
+    <a href="/notfound">CV</a>
   
     <!-- Lien scrollable fonctionnelle -
     <router-link to="/competences" @click.prevent="scrollTo('skills')">Compétences</router-link>

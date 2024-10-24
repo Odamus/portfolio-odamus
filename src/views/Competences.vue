@@ -3,13 +3,13 @@
     <section class="section1">
       <div class="title1"><h1>Compétences</h1></div>
       <div class="content1">
-        <div class="hardskills"><h2 class="hardskill">Hark Skills</h2></div>
+        <div class="hardskills"><h2>Hard Skills</h2></div>
         <div class="competences">
           <div class="blocgauche">
             <div class="skillsdev">
-              <h2 class="skilldev">Compétences Dev</h2>
+              <h2 class="skilldev">COMPETENCES DEV</h2>
             </div>
-            <div class="frontendt"><h3 class="frontend">FRONT-END</h3></div>
+            <div class="frontendt"><h3>Front-End</h3></div>
             <div><p class="p2">HTML</p></div>
             <div class="progressBar">
               <div class="proghtml"></div>
@@ -25,7 +25,7 @@
               <div class="progjs"></div>
             </div>
 
-            <div class="frontendt"><h3 class="frontend">DIVERS</h3></div>
+            <div class="frontendt"><h3>Divers</h3></div>
             <div><p class="p2">WINDOWS</p></div>
             <div class="progressBar">
               <div class="progwindows"></div>
@@ -44,7 +44,7 @@
 
           <div class="blocdroit">
             <div class="skillspro">
-              <h2 class="skillpro">Compétences Professionelle</h2>
+              <h2 class="skillpro">COMPETENCE PROFESSIONNELLE</h2>
             </div>
 
             <div>
@@ -81,11 +81,10 @@
   </div>
     
   <section class="section2">
+    <div class="softskills">
+        <h2>Soft Skills</h2>
+    </div>
         <div id="competences" class="blocbas">
-            <div class="softskills">
-              <h1 class="softskill">SOFT Skills</h1>
-            </div>
-
             <div><p class="p2">LEADERSHIP</p></div>
             <div class="progressBar">
               <div class="progleadership"></div>
@@ -139,7 +138,7 @@
     #skills{
         background-image: url("src/assets/images/fondskill.jpg");
         background-size: cover;
-        height: 700px;
+        height: 750px;
     }
     .h1{
         color: #2c3e50;
@@ -178,12 +177,19 @@
     column-gap: 7em;
     align-content: space-between;
     width: 100%;
+    margin-top: 20px;
 }
 
 .hardskills {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #bbbdc0;
+  border-top: 5px solid #4e6c71;
+  border-bottom: 5px solid #4e6c71;
+  color: #4e6c71;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
 }
 
 .blocgauche {
@@ -218,11 +224,19 @@
     height: 700px;
  }
 
+.softskills {
+  background-color: #bbbdc0;
+  border-top: 5px solid #4e6c71;
+  border-bottom: 5px solid #4e6c71;
+  color: #4e6c71;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .blocbas {
     position: relative;
     flex-direction: column;
     margin-left: 40%;
-    margin-top: 40px;
 }
 
 .softskills {
