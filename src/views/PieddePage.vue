@@ -52,7 +52,8 @@ footer {
 .columns {
     display: flex;
     justify-content: space-around;
-    margin-top: 10px 0 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .columntxt {
