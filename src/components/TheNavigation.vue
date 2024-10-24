@@ -5,19 +5,16 @@
       <img src="../assets/images/logoodam.jpg" id="logo" alt="logo odam"/>
     </router-link>
     <router-link to="/" @click.prevent="scrollTo('home')">Accueil</router-link>
+    <a href="/notfound">Compétences</a>
+    <a href="/notfound">Projets</a>
+    <a href="/notfound">Contact</a>
+
+
+    <!--Liens fonctionnels ci-dessous / ci-dessus liens vers la page 404
     <a href="/#skills">Compétences</a>
     <a href="/#projets">Projets</a>
-    <a href="/#contact">Contact</a>
-    <a href="/notfound">CV</a>
-  
-    <!-- Lien scrollable fonctionnelle -
-    <router-link to="/competences" @click.prevent="scrollTo('skills')">Compétences</router-link>
+    <a href="/#contact">Contact</a>-->
 
-    <router-link to="/projets" @click.prevent="scrollTo('projets')">Projets</router-link>
-
-    <router-link to="/contact" @click.prevent="scrollTo('contact')">Contact</router-link>
-
-    <router-link to="/cv">CV</router-link> -->
   </div>
 
 </template>
