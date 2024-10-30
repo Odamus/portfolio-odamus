@@ -35,5 +35,13 @@ export default {
 <style scoped>
 #nav {
   text-decoration: none;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  #nav {
+    height: 2%;
+    font-size: x-small;
+  }
 }
 </style>

@@ -4,8 +4,8 @@
       <div class="title1"><h1>Compétences</h1></div>
       <div class="content1">
         <div class="hardskills"><h2>Hard Skills</h2></div>
-        <div class="competences">
-          <div class="blocgauche">
+        <div class="row">
+          <div class="col-6 blocgauche">
             <div class="skillsdev">
               <h2 class="skilldev">COMPETENCES DEV</h2>
             </div>
@@ -42,7 +42,7 @@
             </div>
           </div>
 
-          <div class="blocdroit">
+          <div class="col-6 blocdroit">
             <div class="skillspro">
               <h2 class="skillpro">COMPETENCE PROFESSIONNELLE</h2>
             </div>
@@ -195,8 +195,8 @@
 .blocgauche {
     position: relative;
     display: block;
-    justify-content: flex-start;
-    margin-left: 300px;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -208,8 +208,6 @@
     position: relative;
     display: block;
     justify-content: flex-start;
-    margin-right: 100px;
-    padding-left: 500px;
 }
 
 .skillspro {
@@ -248,7 +246,7 @@
 
 .progressBar {
     color: rgb(0, 0, 0);
-    width: 350px;
+    width: 35%;
     height: 20px;
     border: 2px solid #2c3e50;
     position: relative;

@@ -80,5 +80,11 @@ const submitHandler = ()=>{
   width: auto;
 }
 
+@media only screen and (max-width: 768px) {
+    .boxmodal {
+      flex-direction: column;
+    }
+
+}
 
 </style>

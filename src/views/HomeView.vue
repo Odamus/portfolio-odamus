@@ -27,8 +27,9 @@
   
 
   .workodam{
-    width: 500px;
+    width: 25%;
   }
+
 
   .workodam{
     padding-right: 50px;
@@ -45,6 +46,25 @@
     margin: 20px 20px 20px 20px;
     align-content: space-between;
   }
+
+  @media only screen and (max-width: 768px) {
+    .presentation {
+      width: 100%;
+      flex-direction: column;
+    }
+
+    #home {
+      width: auto;
+      height: 100%;
+      margin-top: 10%;
+    }
+
+    .workodam{
+    width: 50%;
+  }
+
+  }
+
 </style>
 
 <script>
