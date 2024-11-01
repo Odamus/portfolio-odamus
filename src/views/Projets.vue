@@ -3,9 +3,9 @@
       <div class="titleproj"><h1>Projets</h1></div>
 
     <div class="boxmodal">
-      <div id="cv" class="shadpic"><button @click="openModal"><img src="../assets/images/cvodampic.png" alt="cvodampic"></button></div>
-      <div class="shadpic"><button @click="openModal"><img src="../assets/images/Cdcetdevis.png" alt="cdcpic"></button></div>
-      <div class="shadpic"><button @click="openModal"><img src="../assets/images/espacecom.png" alt="espacecompic"></button></div>
+      <div id="cv" @click="openModal" class="shadpic"><img src="../assets/images/cvodampic.png" alt="cvodampic"></div>
+      <div @click="openModal"  class="shadpic"><img src="../assets/images/Cdcetdevis.png" alt="cdcpic"></div>
+      <div @click="openModal"  class="shadpic"><img src="../assets/images/espacecom.png" alt="espacecompic"></div>
     </div>
   </div>
 
@@ -50,9 +50,7 @@ const submitHandler = ()=>{
 .boxmodal {
     display: flex;
     justify-content: space-between;
-    margin-left: 20px;
-    margin-top: 10px;
-    width: auto;
+    margin-top: 30px;
 }
 
 .modal-header{
@@ -76,13 +74,24 @@ const submitHandler = ()=>{
 }
 
 .shadpic {
+  border: 1px solid #2c3e50;
+  padding: 10px;
   display: flex;
-  width: auto;
+  width: 25%;
+  height: auto;
+}
+
+.shadpic img {
+  width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
     .boxmodal {
       flex-direction: column;
+    }
+
+    .shadpic {
+      width: 100%;
     }
 
 }

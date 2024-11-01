@@ -162,6 +162,10 @@
       margin-top: 20px;
     }
 
+    .row {
+      width: 100%;
+    }
+
     .content1 {
     display: block;
     flex-direction: column;

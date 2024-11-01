@@ -43,7 +43,6 @@
   .presentation{
     display: flex;
     flex-direction: row;
-    margin: 20px 20px 20px 20px;
     align-content: space-between;
   }
 
@@ -56,7 +55,8 @@
     #home {
       width: auto;
       height: 100%;
-      margin-top: 10%;
+      margin-top: 65px;
+
     }
 
     .workodam{
