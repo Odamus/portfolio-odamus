@@ -164,15 +164,10 @@
 
     .row {
       width: 100%;
+      height: 100%;
+      display: flex;
+      flex-wrap: nowrap;
     }
-
-    .content1 {
-    display: block;
-    flex-direction: column;
-    justify-content: space-between;
-    width: auto;
-    height: auto;
-}
 
 .competences {
     display: flex;
@@ -201,6 +196,7 @@
     display: block;
     align-items: center;
     justify-content: center;
+    padding-left: 150px;
 
 }
 
@@ -411,6 +407,23 @@
     background-color: #2c3e50;
     content: " ";
 }
+
+@media only screen and (max-width: 768px) {
+  
+  .progressBar {
+    width: 150px;
+  }
+
+  .p2 {
+    font-size: xx-small;
+  }
+
+  .skillpro, .skilldev, h3 {
+    font-size: medium;
+  }
+
+
+} 
 
     
 </style>

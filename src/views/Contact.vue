@@ -131,8 +131,6 @@ export default {
         flex-direction: column;
         align-items: center;
         width: 800px;
-        padding-left: 100px;
-        padding-right: 300px;
     }
     
     .contitle {
@@ -160,7 +158,7 @@ export default {
         border-radius: 5px;
         background-color: #f2f2f2;
         padding: 20px;
-        width: 70%;
+        width: 90%;
         margin-left: 0;
         margin-top: 30px;
         color: #2c3e50;
@@ -205,4 +203,77 @@ export default {
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         z-index: 1000;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .entrercontact, .contactme {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contactinfo {
+        padding: 0;
+        width: 50%;
+    }
+
+    .icons {
+        width: 35px;
+        height: 45px;
+    }
+
+    .adresse, .mail, .telephone {
+        font-size: x-small;
+    }
+
+    .leform {
+        display: block;
+        margin:auto;
+        text-align: center;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        width: 90%;
+        margin-left: 0;
+        margin-top: 30px;
+        color: #2c3e50;
+        font-size: smaller;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .entrercontact, .contactme {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contactinfo {
+        padding: 0;
+        width: 50%;
+    }
+
+    .icons {
+        width: 60px;
+        height: 70px;
+    }
+
+    .adresse, .mail, .telephone {
+        font-size: x-small;
+    }
+
+    .leform {
+        display: block;
+        margin:auto;
+        text-align: center;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        width: 90%;
+        margin-left: 0;
+        margin-top: 30px;
+        color: #2c3e50;
+        font-size: smaller;
+    }
+
+}    
 </style>
