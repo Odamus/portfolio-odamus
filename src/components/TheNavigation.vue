@@ -36,12 +36,21 @@ export default {
 #nav {
   text-decoration: none;
   width: 100%;
+  height: 90px;
 }
 
 @media only screen and (max-width: 768px) {
   #nav {
-    height: 2%;
+    height: 80px;
     font-size: x-small;
   }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  #nav {
+  height: 80px;
+  font-size: small;
+  }  
+}
+
 </style>

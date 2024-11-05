@@ -420,8 +420,12 @@
 
   .skillpro, .skilldev, h3 {
     font-size: medium;
+    padding-top: 30px;
   }
 
+  .blocgauche, .blocdroit {
+    padding-left: 40px;
+  }
 
 } 
 

@@ -17,7 +17,7 @@
     background-color: #2c3e50;
     height: 500px;
     color: white;
-    margin-top: 110px;
+    margin-top: 90px;
   }
 
   h1{
@@ -64,6 +64,17 @@
   }
 
   }
+
+  @media only screen and (min-width: 768px) and (max-width: 1200px) {
+  
+    #home{
+    background-color: #2c3e50;
+    height: 500px;
+    color: white;
+    margin-top: 65px;
+   
+  }
+}
 
 </style>
 

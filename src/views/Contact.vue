@@ -122,7 +122,7 @@ export default {
         display: flex;
         flex-direction: row;
         height: 700px;
-        margin-top: 120px;
+        margin-top: 90px;
         border-top: 5px solid #4e6c71;
     }
 
@@ -211,6 +211,10 @@ export default {
         max-width: 100%;
     }
 
+    .contactme {
+        margin-top: 65px;
+    }
+
     .contactinfo {
         padding: 0;
         width: 50%;
@@ -226,22 +230,12 @@ export default {
     }
 
     .leform {
-        display: block;
-        margin:auto;
-        text-align: center;
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 20px;
-        width: 90%;
-        margin-left: 0;
-        margin-top: 30px;
-        color: #2c3e50;
         font-size: smaller;
     }
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
     .entrercontact, .contactme {
         width: 100%;
         max-width: 100%;
@@ -262,16 +256,6 @@ export default {
     }
 
     .leform {
-        display: block;
-        margin:auto;
-        text-align: center;
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 20px;
-        width: 90%;
-        margin-left: 0;
-        margin-top: 30px;
-        color: #2c3e50;
         font-size: smaller;
     }
 

@@ -71,6 +71,60 @@ footer {
     height: 50px;
 }
 
+@media only screen and (max-width: 768px) {
+ .footer {
+    height: 2%;
+    width: 100%;
+    max-width: 100%;
+ }
+
+ .columns {
+    margin-top: 0;
+    font-size: small;
+    margin-bottom: 0px;
+ }
+
+ .iconreseau, .iconx {
+    width: 20px;
+    height: 20px;
+}
+
+.iconx {
+    width: 30px;
+    height: 30px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+    .footer {
+    height: 2%;
+    width: 100%;
+    max-width: 100%;
+ }
+
+ .columns {
+    margin-top: 0;
+    font-size: small;
+    margin-bottom: 0px;
+ }
+
+ .iconreseau, .iconx {
+    width: 20px;
+    height: 20px;
+}
+
+.iconx {
+    width: 30px;
+    height: 30px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+}
 
 </style>
 
