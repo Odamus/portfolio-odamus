@@ -6,7 +6,7 @@
 
   <div class="presentation">
     <img src="../assets/images/workodam.jpg" class="workodam" alt="workodam"/>
-    <p class="txtpresent">Bonjour, je m'appelle Odam SVAY, j'ai travaillé 17ans au sein d'une entreprise d'équipementerie automobile Japonaise, je suis à ce jours en reconversion car mes priorité ont changés.</br> Et oui à ce jour passion et famille m'anime c'est pourquoi j'ai décidé de réaliser une formation dev wev avec le CEF. Vous trouveriez ici mes infos, compétences, et mes derniers projets!</p>
+    <p class="txtpresent">Bonjour, je m'appelle Odam SVAY, j'ai travaillé 17 ans au sein d'une entreprise d'équipementerie automobile japonaise, je suis à ce jour en reconversion car mes priorités ont changé.<br/> Et oui, à ce jour passion et famille m'animent, c'est pourquoi j'ai décidé de réaliser une formation dev wev avec le CEF. Vous trouverez ici mes infos, compétences et mes derniers projets!</p>
   </div>
 </div>
 
@@ -27,17 +27,15 @@
   
 
   .workodam{
-    width: 25%;
-  }
-
-
-  .workodam{
+    width: 550px;
     padding-right: 50px;
     margin-left: 20%;
   }
 
   .txtpresent{
     padding-right: 70px;
+    display: flex;
+    align-items: center;
   }
 
   .presentation{
@@ -46,7 +44,28 @@
     align-content: space-between;
   }
 
-  @media only screen and (max-width: 768px) {
+  /* Mobil */
+  @media only screen and (max-width: 360px) {
+
+    .presentation {
+      width: 100%;
+      flex-direction: column;
+      font-size: smaller;
+    }
+
+    #home {
+      width: auto;
+      height: 100%;
+      margin-top: 65px;
+
+    }
+
+    .workodam{
+    width: 60%;
+  }
+  } 
+
+  @media only screen and (min-width: 361px) and (max-width: 768px) {
     .presentation {
       width: 100%;
       flex-direction: column;
@@ -65,7 +84,7 @@
 
   }
 
-  @media only screen and (min-width: 768px) and (max-width: 1200px) {
+  @media only screen and (min-width: 769px) and (max-width: 1200px) {
   
     #home{
     background-color: #2c3e50;
@@ -73,6 +92,11 @@
     color: white;
     margin-top: 65px;
    
+  }
+
+  .workodam{
+    width: 45%;
+    height: 35%;
   }
 }
 

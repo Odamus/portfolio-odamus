@@ -144,6 +144,10 @@
         color: #2c3e50;
     }
 
+    h2 {
+      font-weight: bold;
+    }
+
     .title1{
     display: flex;
     justify-content: center;
@@ -192,11 +196,13 @@
 }
 
 .blocgauche {
-    position: relative;
-    display: block;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
     justify-content: center;
-    padding-left: 150px;
+    align-items: flex-start;
+    padding-top: 20px;
 
 }
 
@@ -205,9 +211,13 @@
 }
 
 .blocdroit {
-    position: relative;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
     justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 20px;
 }
 
 .skillspro {
@@ -232,9 +242,12 @@
 }
 
 .blocbas {
-    position: relative;
+    display: flex;
     flex-direction: column;
-    margin-left: 40%;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-left: 239px;
+    padding-right: 239px;
 }
 
 .softskills {
@@ -246,7 +259,7 @@
 
 .progressBar {
     color: rgb(0, 0, 0);
-    width: 35%;
+    width: 400px;
     height: 20px;
     border: 2px solid #2c3e50;
     position: relative;
@@ -408,7 +421,26 @@
     content: " ";
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 360px) {
+  .progressBar {
+    width: 100px;
+  }
+
+  .p2 {
+    font-size: xx-small;
+  }
+
+  .skillpro, .skilldev, h3 {
+    font-size: medium;
+    padding-top: 30px;
+  }
+
+  .blocgauche, .blocdroit {
+    padding-left: 40px;
+  }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 768px) {
   
   .progressBar {
     width: 150px;
@@ -426,8 +458,29 @@
   .blocgauche, .blocdroit {
     padding-left: 40px;
   }
+}
 
-} 
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  
+  .progressBar {
+    width: 270px;
+  }
+
+  .p2 {
+    font-size: small;
+  }
+
+  .skillpro, .skilldev, h3 {
+    font-size: medium;
+    padding-top: 30px;
+  }
+
+  .blocgauche, .blocdroit {
+    padding-left: 150px;
+  }
+
+}
+
 
     
 </style>
