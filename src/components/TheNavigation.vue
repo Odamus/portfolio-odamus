@@ -39,14 +39,30 @@ export default {
   height: 90px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 360px) {
+  #nav {
+    height: 50px;
+    font-size: xx-small;
+    padding-left: 5px;
+  }
+
+  #nav a {
+    margin-right: 10px;
+  }
+
+  #logo {
+    width: 30px;
+  }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 768px) {
   #nav {
     height: 80px;
     font-size: x-small;
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
   #nav {
   height: 80px;
   font-size: small;

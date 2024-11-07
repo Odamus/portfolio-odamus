@@ -28,7 +28,7 @@
 
   .workodam{
     width: 550px;
-    padding-right: 50px;
+    padding:20px 50px 20px 0px;
     margin-left: 20%;
   }
 
@@ -50,7 +50,8 @@
     .presentation {
       width: 100%;
       flex-direction: column;
-      font-size: smaller;
+      font-size: x-small;
+      align-items: center;
     }
 
     #home {
@@ -60,8 +61,9 @@
 
     }
 
-    .workodam{
-    width: 60%;
+    .workodam {
+    width: 180px;
+    height: 138px;
   }
   } 
 
@@ -85,6 +87,10 @@
   }
 
   @media only screen and (min-width: 769px) and (max-width: 1200px) {
+
+    .presentation {
+      align-items: center;
+    }
   
     #home{
     background-color: #2c3e50;

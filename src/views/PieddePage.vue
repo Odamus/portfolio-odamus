@@ -71,7 +71,7 @@ footer {
     height: 50px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 361px) and (max-width: 768px) {
  .footer {
     height: 2%;
     width: 100%;
@@ -96,7 +96,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
 
     .footer {
     height: 2%;

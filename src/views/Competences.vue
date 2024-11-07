@@ -426,18 +426,29 @@
     width: 100px;
   }
 
+  .blocbas {
+    padding: 0px 0px 0px 0px;
+  }
+
   .p2 {
     font-size: xx-small;
   }
 
   .skillpro, .skilldev, h3 {
-    font-size: medium;
+    font-size: X-small;
     padding-top: 30px;
+    font-weight: bold;
   }
 
   .blocgauche, .blocdroit {
-    padding-left: 40px;
+    padding-left: 20px;
   }
+
+  .blocdroit {
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
 }
 
 @media only screen and (min-width: 361px) and (max-width: 768px) {
@@ -460,7 +471,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
   
   .progressBar {
     width: 270px;

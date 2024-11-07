@@ -204,8 +204,53 @@ export default {
         z-index: 1000;
 }
 
+@media only screen and (max-width: 360px) {
 
-@media only screen and (max-width: 768px) {
+    .entrercontact, .contactme {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        max-height: 100%;
+    }
+
+    h1 {
+        text-decoration: underline;
+    }
+
+    h1, span {
+        font-size: small;
+    }
+
+    .contactme {
+        margin-top: 65px;
+    }
+
+    .contactinfo {
+        padding: 0;
+        width: 50%;
+    }
+
+    .icons {
+        width: 35px;
+        height: 45px;
+    }
+
+    .adresse, .mail, .telephone {
+        font-size: xx-small;
+    }
+
+    .leform {
+        font-size: xx-small;
+        margin-right: 0px;
+        margin-bottom: 80px;
+    }
+
+}
+    
+@media only screen and (min-width: 361px) and (max-width: 768px) {
     .entrercontact, .contactme {
         width: 100%;
         max-width: 100%;
@@ -235,7 +280,7 @@ export default {
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
     .entrercontact, .contactme {
         width: 100%;
         max-width: 100%;
