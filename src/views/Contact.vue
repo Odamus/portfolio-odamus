@@ -2,7 +2,7 @@
     <div id="contact">
         <div class="contactme">
             <div class="contactinfo">
-                <div class="contitle"><h1>Contact info</h1></div>
+                <div class="contitle"><h2>Contact info</h2></div>
                 <div class="eleminfo"><a href="https://maps.app.goo.gl/Lue5UgRSDNVP2fnU7" target="_blank"><img src="../assets/images/location.png" class="icons" alt="iclocation"/></a></div>
                 <div class="eleminfo"><a href="https://maps.app.goo.gl/Lue5UgRSDNVP2fnU7" target="_blank"><address class="adresse">19-21 Rue Nicolas Appert,<br> 59650 Villeneuve-d'Ascq</address></a></div>
                 <div class="eleminfo"><a href="mailto:odamsoluces@gmail.com"><img src="../assets/images/email.png" class="icons" alt="icmail"/></a></div>
@@ -12,7 +12,7 @@
             </div>
 
             <div class="entrercontact">
-                <h1 class="t1contact">Me contacter</h1>
+                <h2 class="t1contact">Me contacter</h2>
                 <span class="txt-caption">Merci d'intégrer votre demande ci-dessous, je répondrais dans les plus bref délais.</span>
                     <div class="leform">
                         <form id="formulaire" ref="form" name="champscontact" @submit.prevent="sendEmail">
@@ -24,7 +24,7 @@
                            <input class="mailarea" type="email" name="user_email" v-model="formData.email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,8}$" size="30" required placeholder="yourmail@example.com"> 
 
                             <label>Message</label>
-                            <textarea class="messarea" name="message" v-model="formData.message" type="text" required minlength="4" size="60" placeholder="Your message."></textarea>
+                            <textarea class="messarea" name="message" v-model="formData.message" required minlength="4" maxlength="60" rows="4" placeholder="Your message."></textarea>
                            
                            <input type="submit" value="Envoyer">
                         </form>

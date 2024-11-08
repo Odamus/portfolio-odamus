@@ -1,6 +1,6 @@
 <template>
   <div id="projets">
-      <div class="titleproj"><h1>Projets</h1></div>
+      <div class="titleproj"><h2>Projets</h2></div>
 
     <div class="boxmodal">
       <div id="cv" @click="openModal" class="shadpic"><img src="../assets/images/cvodampic.png" alt="cvodampic"></div>
