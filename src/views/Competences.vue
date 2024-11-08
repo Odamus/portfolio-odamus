@@ -457,6 +457,10 @@
     width: 150px;
   }
 
+  .blocbas {
+    padding: 0px 0px 0px 0px;
+  }
+
   .p2 {
     font-size: xx-small;
   }
