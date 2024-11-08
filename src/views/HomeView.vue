@@ -6,7 +6,7 @@
 
   <div class="presentation">
     <img src="../assets/images/workodam.jpg" class="workodam" alt="workodam"/>
-    <p class="txtpresent">Bonjour, je m'appelle Odam SVAY, j'ai travaillé 17 ans au sein d'une entreprise d'équipementerie automobile japonaise, je suis à ce jour en reconversion car mes priorités ont changé.<br/> Et oui, à ce jour passion et famille m'animent, c'est pourquoi j'ai décidé de réaliser une formation dev wev avec le CEF. Vous trouverez ici mes infos, compétences et mes derniers projets!</p>
+    <p class="txtpresent">Bonjour, je m'appelle Odam SVAY, j'ai travaillé 17 ans au sein d'une entreprise d'équipementerie automobile japonaise, je suis à ce jour en reconversion car mes priorités ont changé.<br/> Et oui, à ce jour passion et famille m'animent, c'est pourquoi j'ai décidé de réaliser une formation dev web avec le CEF. Vous trouverez ici mes infos, compétences et mes derniers projets!</p>
   </div>
 </div>
 

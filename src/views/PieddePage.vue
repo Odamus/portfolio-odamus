@@ -71,6 +71,31 @@ footer {
     height: 50px;
 }
 
+@media only screen and (max-width: 360px) {
+    .footer {
+    height: 2%;
+    width: 100%;
+    max-width: 100%;
+ }
+
+ .columns {
+    margin-top: 0;
+    font-size: x-small;
+    margin-bottom: 0px;
+ }
+
+ .iconreseau, .iconx {
+    width: 10px;
+    height: 10px;
+}
+
+.iconx {
+    width: 20px;
+    height: 20px;
+}
+
+}
+
 @media only screen and (min-width: 361px) and (max-width: 768px) {
  .footer {
     height: 2%;
