@@ -44,7 +44,7 @@
 
           <div class="col-6 blocdroit">
             <div class="skillspro">
-              <h2 class="skillpro">COMPETENCE PROFESSIONNELLE</h2>
+              <h2 class="skillpro">COMPETENCES PROFESSIONNELLE</h2>
             </div>
 
             <div>
