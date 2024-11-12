@@ -4,17 +4,10 @@
   <TheNavigation/>
 
 
-<RouterView>
-  <HomeView/>
-  <Competences/>
-  <Projets/>
-  <Contact/>
-</RouterView>
+<RouterView />
 
 
-  <footer>
-    <PieddePage/>
-  </footer>
+<PieddePage/>
 
 </template>
 
