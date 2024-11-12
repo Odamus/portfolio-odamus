@@ -1,7 +1,7 @@
 <template>
   <div id="skills">
     <section class="section1">
-      <div class="title1"><h1>Compétences</h1></div>
+      <div class="title1"><h2>Compétences</h2></div>
       <div class="content1">
         <div class="hardskills"><h2>Hard Skills</h2></div>
         <div class="row">

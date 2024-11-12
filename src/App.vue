@@ -7,9 +7,7 @@
 <RouterView />
 
 
-  <footer>
-    <PieddePage/>
-  </footer>
+<PieddePage/>
 
 </template>
 
