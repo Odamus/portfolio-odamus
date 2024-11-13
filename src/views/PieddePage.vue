@@ -71,6 +71,8 @@ footer {
     height: 50px;
 }
 
+/* Breakpoints pour RWD */
+
 @media only screen and (max-width: 360px) {
     .footer {
     height: 2%;

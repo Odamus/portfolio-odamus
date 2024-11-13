@@ -421,6 +421,8 @@
     content: " ";
 }
 
+/* Breakpoints pour RWD */
+
 @media only screen and (max-width: 360px) {
   .progressBar {
     width: 100px;

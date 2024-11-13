@@ -44,7 +44,8 @@
     align-content: space-between;
   }
 
-  /* Mobil */
+/* Breakpoints pour RWD */
+
   @media only screen and (max-width: 360px) {
 
     .presentation {
