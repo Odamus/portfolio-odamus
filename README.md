@@ -53,3 +53,11 @@ npm install --save @emailjs/browser
 ```
 
 (Pensez à aller sur https://temp-mail.org/fr/ pour générer un mail temporaire afin de tester l'envoie de mail.)
+
+### Install Vite
+
+```sh
+npm install -D vite
+```
+
+(En cas de bug vite pour lancer le "npm run dev")
