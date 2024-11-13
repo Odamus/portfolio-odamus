@@ -84,7 +84,6 @@
     .workodam{
     width: 50%;
   }
-
   }
 
   @media only screen and (min-width: 769px) and (max-width: 1200px) {
@@ -109,5 +108,3 @@
 
 </style>
 
-<script>
-</script>
