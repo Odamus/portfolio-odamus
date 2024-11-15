@@ -1,11 +1,11 @@
 <template>
   <div id="projets">
-      <div class="titleproj"><h1>Projets</h1></div>
+      <div class="titleproj"><h2>Projets</h2></div>
 
     <div class="boxmodal">
-      <div class="shadpic"><button @click="openModal"><img src="../assets/images/cvodampic.png" alt="cvodampic"></button></div>
-      <div class="shadpic"><button @click="openModal"><img src="../assets/images/Cdcetdevis.png" alt="cdcpic"></button></div>
-      <div class="shadpic"><button @click="openModal"><img src="../assets/images/espacecom.png" alt="espacecompic"></button></div>
+      <div id="cv" @click="openModal" class="shadpic"><img src="../assets/images/cvodampic.png" alt="cvodampic"></div>
+      <div @click="openModal"  class="shadpic"><img src="../assets/images/Cdcetdevis.png" alt="cdcpic"></div>
+      <div @click="openModal"  class="shadpic"><img src="../assets/images/espacecom.png" alt="espacecompic"></div>
     </div>
   </div>
 
@@ -37,13 +37,20 @@ const submitHandler = ()=>{
 .titleproj {
   margin-left: auto;
   margin-right: auto;
+  background-color: #2c3e50;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  border-top: 5px solid #4e6c71;
+  border-bottom: 5px solid #4e6c71;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .boxmodal {
     display: flex;
     justify-content: space-between;
-    margin-left: 20px;
-    width: auto;
+    margin-top: 30px;
 }
 
 .modal-header{
@@ -67,9 +74,26 @@ const submitHandler = ()=>{
 }
 
 .shadpic {
+  border: 1px solid #2c3e50;
+  padding: 10px;
   display: flex;
-  width: auto;
+  width: 25%;
+  height: auto;
 }
 
+.shadpic img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .boxmodal {
+      flex-direction: column;
+    }
+
+    .shadpic {
+      width: 100%;
+    }
+
+}
 
 </style>

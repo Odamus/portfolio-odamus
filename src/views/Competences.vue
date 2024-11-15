@@ -1,15 +1,15 @@
 <template>
   <div id="skills">
-    <section class="section2">
-      <div class="content2">
-        <div class="title2"><h1 class="title2">Compétences</h1></div>
-        <div class="hardskills"><h2 class="hardskill">Hark Skills</h2></div>
-        <div class="competences">
-          <div class="blocgauche">
+    <section class="section1">
+      <div class="title1"><h2>Compétences</h2></div>
+      <div class="content1">
+        <div class="hardskills"><h2>Hard Skills</h2></div>
+        <div class="row">
+          <div class="col-6 blocgauche">
             <div class="skillsdev">
-              <h2 class="skilldev">Compétences Dev</h2>
+              <h2 class="skilldev">COMPETENCES DEV</h2>
             </div>
-            <div class="frontendt"><h3 class="frontend">FRONT-END</h3></div>
+            <div class="frontendt"><h3>Front-End</h3></div>
             <div><p class="p2">HTML</p></div>
             <div class="progressBar">
               <div class="proghtml"></div>
@@ -25,7 +25,7 @@
               <div class="progjs"></div>
             </div>
 
-            <div class="frontendt"><h3 class="frontend">DIVERS</h3></div>
+            <div class="frontendt"><h3>Divers</h3></div>
             <div><p class="p2">WINDOWS</p></div>
             <div class="progressBar">
               <div class="progwindows"></div>
@@ -42,9 +42,9 @@
             </div>
           </div>
 
-          <div class="blocdroit">
+          <div class="col-6 blocdroit">
             <div class="skillspro">
-              <h2 class="skillpro">Compétences Professionelle</h2>
+              <h2 class="skillpro">COMPETENCE PROFESSIONNELLE</h2>
             </div>
 
             <div>
@@ -75,12 +75,16 @@
               <div class="progameliocontinu"></div>
             </div>
           </div>
-
-          <div class="blocbas">
-            <div class="softskills">
-              <h1 class="softskill">SOFT Skills</h1>
-            </div>
-
+        </div>
+      </div>
+    </section> 
+  </div>
+    
+  <section class="section2">
+    <div class="softskills">
+        <h2>Soft Skills</h2>
+    </div>
+        <div id="competences" class="blocbas">
             <div><p class="p2">LEADERSHIP</p></div>
             <div class="progressBar">
               <div class="progleadership"></div>
@@ -91,7 +95,7 @@
               <div class="progworkgrp"></div>
             </div>
   
-          <div><p class="p2">COMMUNICATION</p></div>
+            <div><p class="p2">COMMUNICATION</p></div>
             <div class="progressBar">
               <div class="progcommunication"></div>
             </div>
@@ -124,38 +128,50 @@
             <div><p class="p2">CREATIVITE</p></div>
             <div class="progressBar">
               <div class="progcreativity"></div>
-            </div>
-          </div>
+            </div> 
         </div>
-  
-      </div>
-    </section>
-  </div>  
+      </section>
+
 </template>
 
-<style>
+<style scoped>
     #skills{
         background-image: url("src/assets/images/fondskill.jpg");
         background-size: cover;
-        height: 1650px;
+        height: 750px;
     }
     .h1{
         color: #2c3e50;
     }
 
-    .content2 {
-    display: block;
-    flex-direction: column;
-    justify-content: space-between;
-    width: auto;
-    height: auto;
-}
+    h2 {
+      font-weight: bold;
+    }
 
-.title2{
+    .title1{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    background-color: #2c3e50;
+    border-top: 5px solid #4e6c71;
+    border-bottom: 5px solid #4e6c71;
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
+    /* Section 1 flex and style */
+
+    .p2 {
+      margin-bottom: 0;
+      margin-top: 20px;
+    }
+
+    .row {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+    }
 
 .competences {
     display: flex;
@@ -164,33 +180,74 @@
     column-gap: 7em;
     align-content: space-between;
     width: 100%;
+    margin-top: 20px;
 }
 
 .hardskills {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  background-color: #bbbdc0;
+  border-top: 5px solid #4e6c71;
+  border-bottom: 5px solid #4e6c71;
+  color: #4e6c71;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
 }
 
 .blocgauche {
-    position: relative;
-    display: block;
-    justify-content: flex-start;
-    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+
+}
+
+.frontendt {
+  margin-top: 20px;
 }
 
 .blocdroit {
-    position: relative;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
     justify-content: flex-start;
-    margin-right: 100px;
-    margin-top: 40px;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+.skillspro {
+  margin-bottom: 50px;
+}
+
+ /* Section 2 flex and style */
+
+ .section2 {
+    background-image: url("src/assets/images/fondskill.jpg");
+    background-size: cover;
+    height: 700px;
+ }
+
+.softskills {
+  background-color: #bbbdc0;
+  border-top: 5px solid #4e6c71;
+  border-bottom: 5px solid #4e6c71;
+  color: #4e6c71;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .blocbas {
-    position: relative;
+    display: flex;
     flex-direction: column;
-    margin-left: 40%;
-    margin-top: 40px;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-left: 239px;
+    padding-right: 239px;
 }
 
 .softskills {
@@ -202,7 +259,7 @@
 
 .progressBar {
     color: rgb(0, 0, 0);
-    width: 350px;
+    width: 400px;
     height: 20px;
     border: 2px solid #2c3e50;
     position: relative;
@@ -363,6 +420,82 @@
     background-color: #2c3e50;
     content: " ";
 }
+
+@media only screen and (max-width: 360px) {
+  .progressBar {
+    width: 100px;
+  }
+
+  .blocbas {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .p2 {
+    font-size: xx-small;
+  }
+
+  .skillpro, .skilldev, h3 {
+    font-size: X-small;
+    padding-top: 30px;
+    font-weight: bold;
+  }
+
+  .blocgauche, .blocdroit {
+    padding-left: 20px;
+  }
+
+  .blocdroit {
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+}
+
+@media only screen and (min-width: 361px) and (max-width: 768px) {
+  
+  .progressBar {
+    width: 150px;
+  }
+
+  .blocbas {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .p2 {
+    font-size: xx-small;
+  }
+
+  .skillpro, .skilldev, h3 {
+    font-size: medium;
+    padding-top: 30px;
+  }
+
+  .blocgauche, .blocdroit {
+    padding-left: 40px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  
+  .progressBar {
+    width: 270px;
+  }
+
+  .p2 {
+    font-size: small;
+  }
+
+  .skillpro, .skilldev, h3 {
+    font-size: medium;
+    padding-top: 30px;
+  }
+
+  .blocgauche, .blocdroit {
+    padding-left: 150px;
+  }
+
+}
+
 
     
 </style>

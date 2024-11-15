@@ -29,16 +29,33 @@ npm run build
 ```
 
 ### Install Bootstrap
+
 ```sh
 npm install bootstrap
 ```
 
 ### Install Jquery
+
 ```sh
 npm install jquery
 ```
 
 ### Install Vue router 4 (si necessaire)
+
 ```sh
 npm install vue-router@4
 ```
+
+### Install Axios (for librairy HTTP request from the browser or the backend)
+
+```sh
+npm install axios
+```
+
+### Install Emailjs
+
+```sh
+npm install --save @emailjs/browser
+```
+(Pensez à aller sur https://temp-mail.org/fr/ pour générer un mail temporaire afin de tester l'envoie de mail.)
+
