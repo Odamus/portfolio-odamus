@@ -24,6 +24,8 @@
   margin-top: 35vh;
 }
 
+/* Breakpoints pour RWD */
+
 @media only screen and (max-width: 360px) {
     .imgnotfound {
     max-width: 100%;

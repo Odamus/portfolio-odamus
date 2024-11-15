@@ -4,8 +4,8 @@
 
     <div class="boxmodal">
       <div id="cv" @click="openModal" class="shadpic"><img src="../assets/images/cvodampic.png" alt="cvodampic"></div>
-      <div @click="openModal"  class="shadpic"><img src="../assets/images/Cdcetdevis.png" alt="cdcpic"></div>
-      <div @click="openModal"  class="shadpic"><img src="../assets/images/espacecom.png" alt="espacecompic"></div>
+      <div @click="openModal" class="shadpic"><img src="../assets/images/Cdcetdevis.png" alt="cdcpic"></div>
+      <div @click="openModal" class="shadpic"><img src="../assets/images/espacecom.png" alt="espacecompic"></div>
     </div>
   </div>
 
@@ -28,7 +28,7 @@ const closeModal = () => {
 };
 
 const submitHandler = ()=>{
-  //here you do whatever
+
 }
 </script>
 
@@ -84,6 +84,8 @@ const submitHandler = ()=>{
 .shadpic img {
   width: 100%;
 }
+
+/* Breakpoints pour RWD */
 
 @media only screen and (max-width: 768px) {
     .boxmodal {
