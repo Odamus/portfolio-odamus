@@ -39,6 +39,8 @@ export default {
   height: 90px;
 }
 
+/* Breakpoints pour RWD */
+
 @media only screen and (max-width: 360px) {
   #nav {
     height: 50px;

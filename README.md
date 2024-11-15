@@ -46,16 +46,18 @@ npm install jquery
 npm install vue-router@4
 ```
 
-### Install Axios (for librairy HTTP request from the browser or the backend)
-
-```sh
-npm install axios
-```
-
 ### Install Emailjs
 
 ```sh
 npm install --save @emailjs/browser
 ```
+
 (Pensez à aller sur https://temp-mail.org/fr/ pour générer un mail temporaire afin de tester l'envoie de mail.)
 
+### Install Vite
+
+```sh
+npm install -D vite
+```
+
+(En cas de bug vite pour lancer le "npm run dev")

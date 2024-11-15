@@ -44,7 +44,8 @@
     align-content: space-between;
   }
 
-  /* Mobil */
+/* Breakpoints pour RWD */
+
   @media only screen and (max-width: 360px) {
 
     .presentation {
@@ -83,7 +84,6 @@
     .workodam{
     width: 50%;
   }
-
   }
 
   @media only screen and (min-width: 769px) and (max-width: 1200px) {
@@ -108,5 +108,3 @@
 
 </style>
 
-<script>
-</script>

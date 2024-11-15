@@ -44,7 +44,7 @@
 
           <div class="col-6 blocdroit">
             <div class="skillspro">
-              <h2 class="skillpro">COMPETENCE PROFESSIONNELLE</h2>
+              <h2 class="skillpro">COMPETENCES PROFESSIONNELLE</h2>
             </div>
 
             <div>
@@ -420,6 +420,8 @@
     background-color: #2c3e50;
     content: " ";
 }
+
+/* Breakpoints pour RWD */
 
 @media only screen and (max-width: 360px) {
   .progressBar {
