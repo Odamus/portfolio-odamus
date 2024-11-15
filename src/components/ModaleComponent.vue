@@ -37,9 +37,9 @@
 
             <tr>
               <td>Lien repository GitHub :</td>
-              <td>Contenu</td>
-              <td>Contenu</td>
-              <td>Contenu</td>
+              <td><a href="https://github.com/Odamus/Devoir-CEF-CV.git">Lien vers repository Github du CV</a></td>
+              <td>Pas de lien github, accès direct via la mini ci-dessous</td>
+              <td><a href="https://github.com/Odamus/Devoir-CEF-Dynamiser-un-espace-commentaire.git">Lien vers le repository Github du l'Espace de commentaire dynamique</a></td>
             </tr>
 
             <tr>
