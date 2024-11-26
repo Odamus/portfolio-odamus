@@ -33,6 +33,11 @@ npm run build
 ```sh
 npm install bootstrap
 ```
+### Install Vueuse/core
+
+```sh
+npm install @vueuse/core
+```
 
 ### Install Jquery
 
